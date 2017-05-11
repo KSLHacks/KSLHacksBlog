@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>YOOOOOO OOOOOO OOOOOO on Hugo on Azure Demo</title>
+    <link>http://hugo-on.azurewebsites.net/</link>
+    <description>Recent content in YOOOOOO OOOOOO OOOOOO on Hugo on Azure Demo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 06 May 2017 22:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="http://hugo-on.azurewebsites.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About me</title>
+      <link>http://hugo-on.azurewebsites.net/about/</link>
+      <pubDate>Sat, 06 May 2017 22:00:00 -0600</pubDate>
+      
+      <guid>http://hugo-on.azurewebsites.net/about/</guid>
+      <description>Hey, I&amp;rsquo;m a cool kid! Here are some fun facts about me.
+I like electronics, Barbie dolls, video games, programming, art, perfume, afrofuturism, and knitting.</description>
+    </item>
+    
+    <item>
+      <title>Welcome to my blog</title>
+      <link>http://hugo-on.azurewebsites.net/posts/welcome-to-my-blog/</link>
+      <pubDate>Sat, 06 May 2017 20:41:00 -0600</pubDate>
+      
+      <guid>http://hugo-on.azurewebsites.net/posts/welcome-to-my-blog/</guid>
+      <description>Welcome to my blog! It&amp;rsquo;s a Hugo site hosted on Azure with continuous deployment from GitHub. That means every time I update a .md file and commit the changes on GitHub, my blog will automatically update.
+Pretty cool, no?</description>
+    </item>
+    
+  </channel>
+</rss>
