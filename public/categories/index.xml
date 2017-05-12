@@ -10,5 +10,23 @@
 	<atom:link href="http://kslhacks.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Category</title>
+      <link>http://kslhacks.com/categories/category/</link>
+      <pubDate>Fri, 12 May 2017 16:23:13 -0500</pubDate>
+      
+      <guid>http://kslhacks.com/categories/category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subcategory</title>
+      <link>http://kslhacks.com/categories/subcategory/</link>
+      <pubDate>Fri, 12 May 2017 16:23:13 -0500</pubDate>
+      
+      <guid>http://kslhacks.com/categories/subcategory/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
