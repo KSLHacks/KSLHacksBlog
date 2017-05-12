@@ -2,76 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>KSLHacks.com/posts/image-showcase/</loc>
+    <loc>KSLHacks.azurewebsites.net/posts/image-showcase/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>KSLHacks.com/archives/</loc>
+    <loc>KSLHacks.azurewebsites.net/archives/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>KSLHacks.com/categories/</loc>
+    <loc>KSLHacks.azurewebsites.net/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>KSLHacks.com/tags/disqus/</loc>
-    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>KSLHacks.com/tags/google-analytics/</loc>
+    <loc>KSLHacks.azurewebsites.net/tags/disqus/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>KSLHacks.com/tags/gravatar/</loc>
+    <loc>KSLHacks.azurewebsites.net/tags/google-analytics/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>KSLHacks.com/tags/hexo-theme/</loc>
+    <loc>KSLHacks.azurewebsites.net/tags/gravatar/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>KSLHacks.com/</loc>
+    <loc>KSLHacks.azurewebsites.net/tags/hexo-theme/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>KSLHacks.com/posts/</loc>
+    <loc>KSLHacks.azurewebsites.net/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>KSLHacks.com/categories/releases/</loc>
+    <loc>KSLHacks.azurewebsites.net/posts/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>KSLHacks.com/tags/responsive/</loc>
+    <loc>KSLHacks.azurewebsites.net/categories/releases/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>KSLHacks.com/tags/</loc>
+    <loc>KSLHacks.azurewebsites.net/tags/responsive/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>KSLHacks.com/categories/tranquilpeak/</loc>
+    <loc>KSLHacks.azurewebsites.net/tags/</loc>
+    <lastmod>2015-06-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>KSLHacks.azurewebsites.net/categories/tranquilpeak/</loc>
     <lastmod>2015-06-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
