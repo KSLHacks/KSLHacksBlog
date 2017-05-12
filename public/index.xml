@@ -38,5 +38,15 @@
       <description></description>
     </item>
     
+    <item>
+      <title>New website is here!</title>
+      <link>http://kslhacks.com/2017/05/new-website-is-here/</link>
+      <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/2017/05/new-website-is-here/</guid>
+      <description>&lt;p&gt;My new site is up and running with Hugo on Azure!
+&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

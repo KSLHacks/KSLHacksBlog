@@ -20,11 +20,29 @@
     </item>
     
     <item>
+      <title>Front End</title>
+      <link>http://kslhacks.com/categories/front-end/</link>
+      <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/categories/front-end/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Subcategory</title>
       <link>http://kslhacks.com/categories/subcategory/</link>
       <pubDate>Fri, 12 May 2017 16:23:13 -0500</pubDate>
       
       <guid>http://kslhacks.com/categories/subcategory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>http://kslhacks.com/categories/tech/</link>
+      <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/categories/tech/</guid>
       <description></description>
     </item>
     

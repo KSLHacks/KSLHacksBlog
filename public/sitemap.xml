@@ -17,7 +17,18 @@
   </url>
   
   <url>
+    <loc>http://kslhacks.com/2017/05/new-website-is-here/</loc>
+    <lastmod>2017-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://kslhacks.com/archives/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kslhacks.com/tags/azure/</loc>
+    <lastmod>2017-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -33,6 +44,18 @@
   </url>
   
   <url>
+    <loc>http://kslhacks.com/categories/front-end/</loc>
+    <lastmod>2017-05-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kslhacks.com/tags/hugo/</loc>
+    <lastmod>2017-05-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://kslhacks.com/</loc>
     <lastmod>2017-05-12T16:23:13-05:00</lastmod>
     <priority>0</priority>
@@ -41,6 +64,18 @@
   <url>
     <loc>http://kslhacks.com/page/</loc>
     <lastmod>2017-05-12T16:23:13-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kslhacks.com/post/</loc>
+    <lastmod>2017-05-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kslhacks.com/tags/ssg/</loc>
+    <lastmod>2017-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -64,7 +99,13 @@
   
   <url>
     <loc>http://kslhacks.com/tags/</loc>
-    <lastmod>2017-05-12T16:23:13-05:00</lastmod>
+    <lastmod>2017-05-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kslhacks.com/categories/tech/</loc>
+    <lastmod>2017-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
