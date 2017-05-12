@@ -2,53 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://hugo-on.azurewebsites.net/about/</loc>
-    <lastmod>2017-05-06T22:00:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hugo-on.azurewebsites.net/posts/welcome-to-my-blog/</loc>
-    <lastmod>2017-05-06T20:41:00-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://hugo-on.azurewebsites.net/tags/azure/</loc>
-    <lastmod>2017-05-06T20:41:00-06:00</lastmod>
+    <loc>KSLHacks.com/archives/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo-on.azurewebsites.net/tags/blogging/</loc>
-    <lastmod>2017-05-06T20:41:00-06:00</lastmod>
+    <loc>KSLHacks.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo-on.azurewebsites.net/categories/</loc>
+    <loc>KSLHacks.com/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://hugo-on.azurewebsites.net/tags/hugo/</loc>
-    <lastmod>2017-05-06T20:41:00-06:00</lastmod>
+    <loc>KSLHacks.com/tags/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://hugo-on.azurewebsites.net/posts/</loc>
-    <lastmod>2017-05-06T20:41:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://hugo-on.azurewebsites.net/tags/</loc>
-    <lastmod>2017-05-06T20:41:00-06:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://hugo-on.azurewebsites.net/</loc>
-    <lastmod>2017-05-06T22:00:00-06:00</lastmod>
   </url>
   
 </urlset>
