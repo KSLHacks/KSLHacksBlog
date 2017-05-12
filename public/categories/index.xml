@@ -10,5 +10,23 @@
 	<atom:link href="KSLHacks.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Releases</title>
+      <link>KSLHacks.com/categories/releases/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>KSLHacks.com/categories/releases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tranquilpeak</title>
+      <link>KSLHacks.com/categories/tranquilpeak/</link>
+      <pubDate>Mon, 15 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>KSLHacks.com/categories/tranquilpeak/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
