@@ -15,9 +15,9 @@
 baseurl = "http://kslhacks.com"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
-title = "KSLHacks – // TODO: inspire, create, hack, enjoy"
+title = "// TODO: inspire, create, hack, enjoy"
 theme = "hugo-tranquilpeak-theme"
-disqusShortname = "hugo-tranquilpeak-theme"
+disqusShortname = "kslhacks"
 googleAnalytics = "UA-99057010-1"
 paginate = 7
 canonifyurls = true
