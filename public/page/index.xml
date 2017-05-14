@@ -30,12 +30,12 @@
     </item>
     
     <item>
-      <title>New Page</title>
+      <title>Hello World.. I am Kevin!</title>
       <link>http://kslhacks.com/page/about/</link>
-      <pubDate>Fri, 12 May 2017 16:20:44 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://kslhacks.com/page/about/</guid>
-      <description></description>
+      <description> About Kevin </description>
     </item>
     
   </channel>

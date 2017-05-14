@@ -2,6 +2,11 @@
 title: "New website is here!"
 date: 2017-05-12
 draft: false
+comments: true
+showTags: true
+showPagination: true
+showSocial: true
+showDate: true
 thumbnailImagePosition: top
 thumbnailImage: /img/hugo_banner2.png
 coverImage: /img/cover_city.png

@@ -21,23 +21,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.20.2">
     <meta name="theme" content="Tranquilpeak 0.3.1-BETA">
-    <title>New Page</title>
+    <title>Hello World.. I am Kevin!</title>
     <meta name="author" content="Kevin Leung">
-    <meta name="keywords" content="tech">
+    <meta name="keywords" content="">
 
     <link rel="icon" href="http://kslhacks.com/favicon.png">
     
 
     
-    <meta name="description" content="">
-    <meta property="og:description" content="">
+    <meta name="description" content=" About Kevin ">
+    <meta property="og:description" content=" About Kevin ">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="New Page">
+    <meta property="og:title" content="Hello World.. I am Kevin!">
     <meta property="og:url" content="/page/about/">
     <meta property="og:site_name" content="// TODO: inspire, create, hack, enjoy">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="// TODO: inspire, create, hack, enjoy">
-    <meta name="twitter:description" content="">
+    <meta name="twitter:description" content=" About Kevin ">
     
       <meta name="twitter:creator" content="@KSLHacks">
     
@@ -51,6 +51,8 @@
     
 
     
+    
+      <meta property="og:image" content="http://kslhacks.com/img/CodeMash2017.jpg">
     
     
 
@@ -230,41 +232,42 @@ ga('send', 'pageview');
 </nav>
 
       
-
-      <div id="main" data-behavior="1"
-        class="
-               hasCoverMetaIn
-               ">
-        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
-          
-          
-            <div class="post-header main-content-wrap text-left">
+  <div class="post-header-cover
+              text-left
+              post-header-cover--partial"
+       style="background-image:url('/img/CodeMash2017.jpg')"
+       data-behavior="1">
+    
+      <div class="post-header main-content-wrap text-left">
   
     <h1 class="post-title" itemprop="headline">
-      New Page
+      Hello World.. I am Kevin!
     </h1>
   
   <div class="postShorten-meta post-meta">
   
   
-  
-  
-    <span>in</span>
-    
-      <a class="category-link" href="http://kslhacks.com/categories/category">category</a>, 
-    
-      <a class="category-link" href="http://kslhacks.com/categories/subcategory">subcategory</a>
-    
-  
-
 
 </div>
 
 </div>
+    
+  </div>
+
+
+      <div id="main" data-behavior="1"
+        class="hasCover
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
           
           <div class="post-content markdown" itemprop="articleBody">
             <div class="main-content-wrap">
               
+
+<h1 id="about-kevin">About Kevin</h1>
+
               
             </div>
           </div>
@@ -279,6 +282,12 @@ ga('send', 'pageview');
   <ul class="post-actions post-action-share">
     
     
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#disqus_thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
+    
     <li class="post-action">
       
         <a class="post-action-btn btn btn--default" href="#">
@@ -290,6 +299,12 @@ ga('send', 'pageview');
 </div>
 
 
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
             
           </div>
         </article>
@@ -309,6 +324,12 @@ ga('send', 'pageview');
   </nav>
   <ul class="post-actions post-action-share">
     
+    
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#disqus_thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
     
     <li class="post-action">
       
@@ -473,6 +494,30 @@ $(document).ready(function() {
 });
 </script>
 
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'http:\/\/kslhacks.com\/page\/about\/';
+          
+            this.page.identifier = '\/page\/about\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'kslhacks';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
   
 
 

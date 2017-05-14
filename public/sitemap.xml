@@ -12,11 +12,6 @@
   </url>
   
   <url>
-    <loc>http://kslhacks.com/page/about/</loc>
-    <lastmod>2017-05-12T16:20:44-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://kslhacks.com/2017/05/new-website-is-here/</loc>
     <lastmod>2017-05-12T00:00:00+00:00</lastmod>
   </url>
@@ -53,6 +48,10 @@
     <loc>http://kslhacks.com/categories/front-end/</loc>
     <lastmod>2017-05-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kslhacks.com/page/about/</loc>
   </url>
   
   <url>
