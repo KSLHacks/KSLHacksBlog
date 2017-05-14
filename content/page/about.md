@@ -9,7 +9,6 @@ showDate: false
 coverImage: /img/CodeMash2017.jpg
 coverMeta: in
 coverSize: partial
-comments: true
 ---
 
 # About Kevin
