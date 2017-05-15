@@ -3,7 +3,7 @@ title: "Hello World.. I am Kevin!"
 coverImage: /img/pages/about/about_cover.jpg
 coverMeta: in
 coverSize: partial
-coverHeight: 50
+coverHeight: 45
 draft:          false
 comments:       false
 showTags:       false
