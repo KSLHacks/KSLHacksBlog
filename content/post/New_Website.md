@@ -6,6 +6,7 @@ thumbnailImage: /img/posts/hugo_banner2.png
 coverImage: /img/cover_city.png
 coverMeta: in
 coverSize: partial
+coverHeight: 40
 categories:
 - tech
 - front-end
