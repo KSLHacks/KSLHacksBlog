@@ -6,27 +6,17 @@
     <description>Recent content in Pages on // TODO: inspire, create, hack, enjoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 May 2017 16:23:13 -0500</lastBuildDate>
     
 	<atom:link href="http://kslhacks.com/page/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>New Page</title>
+      <title>Events and Workshops</title>
       <link>http://kslhacks.com/page/events/</link>
-      <pubDate>Fri, 12 May 2017 16:23:13 -0500</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://kslhacks.com/page/events/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>New Page</title>
-      <link>http://kslhacks.com/page/projects/</link>
-      <pubDate>Fri, 12 May 2017 16:23:07 -0500</pubDate>
-      
-      <guid>http://kslhacks.com/page/projects/</guid>
-      <description></description>
+      <description> Upcoming Events Past Events </description>
     </item>
     
     <item>
@@ -36,6 +26,15 @@
       
       <guid>http://kslhacks.com/page/about/</guid>
       <description> About Kevin </description>
+    </item>
+    
+    <item>
+      <title>Projects and Ideas</title>
+      <link>http://kslhacks.com/page/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/page/projects/</guid>
+      <description> Current Projects Completed Projects Ideas! </description>
     </item>
     
   </channel>

@@ -6,7 +6,7 @@ showTags: false
 showPagination: false
 showSocial: false
 showDate: false
-coverImage: /img/CodeMash2017.jpg
+coverImage: /img/pages/about/about_cover.jpg
 coverMeta: in
 coverSize: partial
 ---

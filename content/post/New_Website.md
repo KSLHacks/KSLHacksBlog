@@ -8,7 +8,7 @@ showPagination: true
 showSocial: true
 showDate: true
 thumbnailImagePosition: top
-thumbnailImage: /img/hugo_banner2.png
+thumbnailImage: /img/posts/hugo_banner2.png
 coverImage: /img/cover_city.png
 coverMeta: in
 coverSize: partial

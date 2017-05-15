@@ -38,23 +38,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>Tag1</title>
-      <link>http://kslhacks.com/tags/tag1/</link>
-      <pubDate>Fri, 12 May 2017 16:23:13 -0500</pubDate>
-      
-      <guid>http://kslhacks.com/tags/tag1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tag2</title>
-      <link>http://kslhacks.com/tags/tag2/</link>
-      <pubDate>Fri, 12 May 2017 16:23:13 -0500</pubDate>
-      
-      <guid>http://kslhacks.com/tags/tag2/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
