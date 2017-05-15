@@ -35,6 +35,6 @@ After playing around with the code for a few days, there were certain aspects of
 
 This was such a great experience for me diving into front-end development. It's my first time learning about static site generators and Hugo is such a fun place to start! With the help of [@Howlowck](https://twitter.com/howlowck), I even made a few PRs to the theme's repo on GitHub! I will continue to improve this website and contribute to the [theme's open-source code](https://github.com/kakawait/hugo-tranquilpeak-theme) along the way.
 
-Thanks for checking my website out, special thanks to [Hao](https://twitter.com/howlowck) and Rae [Rae](https://twitter.com/partytimeHXLNT) for teaching me about SSGs, Hugo and getting my site up and running on Azure!
+Thanks for checking my website out, special thanks to [Hao](https://twitter.com/howlowck) and [Rae](https://twitter.com/partytimeHXLNT) for teaching me about SSGs, Hugo and getting my site up and running on Azure!
 
 TL;DR: I have a new website.
