@@ -1,5 +1,5 @@
 ---
-title: "Projects and Ideas"
+title: "Projects, Ideas and Tutorials"
 coverImage: /img/pages/projects/projects_cover.jpg
 coverMeta: in
 coverSize: partial
