@@ -12,6 +12,33 @@ showSocial:     false
 showDate:       false
 ---
 
-# Upcoming Events
+# Upcoming Speaking Events By Topic
+
+<!------ CaaP ------>
+##### Leveling up your bot with language intelligence! (100 - 200)
+- [Chicago .NET Developers Downtown](https://www.meetup.com/chicagodevnet/events/239508934/) | Chicago, IL | June 1, 2017  
+- [Beer City Code](http://beercitycode.com/) | Grand Rapids, MI | June 6-10, 2017
+
+<!------------------>
+
 
 # Past Events
+
+|            Event                  |         Technology         |      Location       |      Date     |
+|-----------------------------------|----------------------------|---------------------|--------------:|
+| GoTo Conference                   | CaaP + AI                  | Chicago, IL         | May 2017      |
+| Chicago Code Camp                 | CaaP + AI                  | Chicago, IL         | April 2017    |
+| Twin Cities Code Camp             | ASP.NET Core               | Minneapolis, MN     | April 2017    |
+| DePaul Misison to Mars            | IoT, C#                    | Chicago, IL         | April 2017    |
+| Indy.Code()                       | ASP.NET Core               | Indianapolis, IN    | March 2017    |
+| Indy.Code()                       | CaaP + AI                  | Indianapolis, IN    | March 2017    |
+| Chicago .NET Developers Downtown  | CaaP + AI                  | Chicago, IL         | February 2017 |
+| HackIllinois (UIUC)               | CaaP + AI                  | Champaign, IL       | February 2017 |
+| Code Mash                         | ASP.NET Core               | Sandusky, OH        | January 2017  |
+| University Illinois Chicago ACM   | CaaP + AI                  | Chicago, IL         | January 2017  |
+| Nodevember                        |                            | Nashville, TN       | November 2016 |
+| Chicago .NET Developers Downtown  | ASP.NET Core               | Chicago, IL         | October 2016  |
+| Microsoft Intel IoT Camp          | IoT                        | Downers Grove, IL   | October 2016  |
+| MHacks (University of Michigan)   | CaaP + AI                  | Detroit, MI         | October 2016  |
+| ThatConference                    |                            | Wisconsin Dells, WI | August 2016   |
+| InternationalNodeBots             | IoT, Node.js               | Chicago, IL         | July 2016     |
