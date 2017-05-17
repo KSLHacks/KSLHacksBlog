@@ -26,7 +26,7 @@ Caap: Conversation as a Platform
 NLP: Natural Language Processing  
 LUIS: Microsoft's Language Understanding Intelligence Service (NLP)  
 AI: Artificial Intelligence  
-ML: Machine Learning
+ML: Machine Learning  
 IoT: Internet of Things (Connected hardware and devices)
 ___
 <!-- Project Template
