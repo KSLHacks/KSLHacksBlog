@@ -1,7 +1,7 @@
 ---
 title: "New website is here!"
 date: 2017-05-12
-thumbnailImagePosition: top
+thumbnailImagePosition: left
 thumbnailImage: /img/posts/1_hugo_banner.png
 coverImage: /img/cover_city.png
 coverMeta: in

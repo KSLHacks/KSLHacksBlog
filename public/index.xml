@@ -6,10 +6,21 @@
     <description>Recent content on // inspire, create, hack, enjoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 May 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://kslhacks.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Chatbots: Button Dialogs</title>
+      <link>http://kslhacks.com/2017/05/chatbots-button-dialogs/</link>
+      <pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/2017/05/chatbots-button-dialogs/</guid>
+      <description>&lt;p&gt;Quick steps to start new dialogs with a click of a button. Demo with code provided. Take your chatbot to the next level!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>New website is here!</title>

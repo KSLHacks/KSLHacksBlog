@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on // inspire, create, hack, enjoy</title>
-    <link>http://kslhacks.com/post/</link>
-    <description>Recent content in Posts on // inspire, create, hack, enjoy</description>
+    <title>Rich Media Cards on // inspire, create, hack, enjoy</title>
+    <link>http://kslhacks.com/tags/rich-media-cards/</link>
+    <description>Recent content in Rich Media Cards on // inspire, create, hack, enjoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 May 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://kslhacks.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://kslhacks.com/tags/rich-media-cards/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,17 +18,6 @@
       
       <guid>http://kslhacks.com/2017/05/chatbots-button-dialogs/</guid>
       <description>&lt;p&gt;Quick steps to start new dialogs with a click of a button. Demo with code provided. Take your chatbot to the next level!&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>New website is here!</title>
-      <link>http://kslhacks.com/2017/05/new-website-is-here/</link>
-      <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://kslhacks.com/2017/05/new-website-is-here/</guid>
-      <description>&lt;p&gt;My new site is up and running with Hugo on Azure!&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
