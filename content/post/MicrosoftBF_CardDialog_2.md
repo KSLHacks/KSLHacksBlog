@@ -48,18 +48,19 @@ The code will look like this:
 
 `bot.beginDialogAction('Profile', '/profile')`
 
-Also keep in mind, if you wish to have multiple buttons corresponding to different actions, you must define them seperately. The demo code I included has two buttons each with their own action defined. (refer to the code)
+Also keep in mind, if you wish to have multiple buttons corresponding to different actions, you must define them separately. The demo code I included has two buttons each with their own action defined. (refer to the code)
 
 #### 2. Create the buttons to trigger the Action
-Either as a global variable, or inside your card function, you must define the array of actions for you to make available to the user. In this example, the dialogAction has four parameters: 
+Either as a global variable, or inside your card function, you must define the array of actions for you to make available to the user. In this example, the dialogAction has four parameters:
+
 1. session (passed in from the calling dialog)
 2. action name (String must match step #1)
 3. action parameters to pass (null in this example)
-4. The title (the string that appears on the button).
+4. title (the string that appears on the button).
 
 `var buttonList = [builder.CardAction.dialogAction(session, 'Profile', null, 'Profile')]`
 
 #### 3. Include the buttons in the rich card
-The last step is to add the buttons option to the card. Each array item will correspond to seperate buttons. See my example of the hero card in the code (I include two buttons). [Read more about cards](https://docs.botframework.com/en-us/node/builder/chat/session/#cards).
+The last step is to add the buttons option to the card. Each array item will correspond to separate buttons. See my example of the hero card in the code (I include two buttons). [Read more about cards](https://docs.botframework.com/en-us/node/builder/chat/session/#cards).
 
 `.buttons(buttonList)`

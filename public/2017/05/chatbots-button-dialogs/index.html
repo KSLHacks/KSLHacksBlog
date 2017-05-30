@@ -320,21 +320,24 @@ CoverImage dimensions: 1800px x 450px
 
 <p><code>bot.beginDialogAction('Profile', '/profile')</code></p>
 
-<p>Also keep in mind, if you wish to have multiple buttons corresponding to different actions, you must define them seperately. The demo code I included has two buttons each with their own action defined. (refer to the code)</p>
+<p>Also keep in mind, if you wish to have multiple buttons corresponding to different actions, you must define them separately. The demo code I included has two buttons each with their own action defined. (refer to the code)</p>
 
 <h4 id="2-create-the-buttons-to-trigger-the-action">2. Create the buttons to trigger the Action</h4>
 
-<p>Either as a global variable, or inside your card function, you must define the array of actions for you to make available to the user. In this example, the dialogAction has four parameters:
-1. session (passed in from the calling dialog)
-2. action name (String must match step #1)
-3. action parameters to pass (null in this example)
-4. The title (the string that appears on the button).</p>
+<p>Either as a global variable, or inside your card function, you must define the array of actions for you to make available to the user. In this example, the dialogAction has four parameters:</p>
+
+<ol>
+<li>session (passed in from the calling dialog)</li>
+<li>action name (String must match step #1)</li>
+<li>action parameters to pass (null in this example)</li>
+<li>title (the string that appears on the button).</li>
+</ol>
 
 <p><code>var buttonList = [builder.CardAction.dialogAction(session, 'Profile', null, 'Profile')]</code></p>
 
 <h4 id="3-include-the-buttons-in-the-rich-card">3. Include the buttons in the rich card</h4>
 
-<p>The last step is to add the buttons option to the card. Each array item will correspond to seperate buttons. See my example of the hero card in the code (I include two buttons). <a href="https://docs.botframework.com/en-us/node/builder/chat/session/#cards">Read more about cards</a>.</p>
+<p>The last step is to add the buttons option to the card. Each array item will correspond to separate buttons. See my example of the hero card in the code (I include two buttons). <a href="https://docs.botframework.com/en-us/node/builder/chat/session/#cards">Read more about cards</a>.</p>
 
 <p><code>.buttons(buttonList)</code></p>
               
