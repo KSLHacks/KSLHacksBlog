@@ -16,7 +16,6 @@ showDate:       false
 
 <!------ CaaP ------>
 ##### Leveling up your bot with language intelligence! (100 - 200)
-- [Chicago .NET Developers Downtown](https://www.meetup.com/chicagodevnet/events/239508934/) | Chicago, IL | June 1, 2017  
 - [Beer City Code](http://beercitycode.com/) | Grand Rapids, MI | June 6-10, 2017
 
 <!------------------>
@@ -27,6 +26,7 @@ ___
 
 |            Event                  |         Technology         |      Location       |      Date     |
 |-----------------------------------|----------------------------|---------------------|--------------:|
+| Chicago .NET Developers Downtown  | CaaP + AI                  | Chicago, IL         | June 2017     |
 | GoTo Conference                   | CaaP + AI                  | Chicago, IL         | May 2017      |
 | Chicago Code Camp                 | CaaP + AI                  | Chicago, IL         | April 2017    |
 | Twin Cities Code Camp             | ASP.NET Core               | Minneapolis, MN     | April 2017    |
