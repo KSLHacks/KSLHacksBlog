@@ -26,13 +26,11 @@ showDate:       true
 Quick steps to start new dialogs with a click of a button. Demo with code provided. Take your chatbot to the next level!
 
 <!--more-->
-
 <!--
 Notes:
 ThumbnailImage dimensions: 700px x 700px
 CoverImage dimensions: 1800px x 450px
 -->
-
 [Check out the Github breakdown!](https://github.com/KSLHacks/Bot_CardButtonDialog)
 
 ### Problem

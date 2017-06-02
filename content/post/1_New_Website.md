@@ -26,7 +26,6 @@ showDate:       true
 My new site is up and running with Hugo on Azure!
 
 <!--more-->
-
 My old website was powered by WordPress, which was fantastic for getting a website up and running fast with no experience prior.. but after a while, the lack of customization was really fustrating. A few of my colleagues recommended that I try out Hugo.. I'm loving it!
 
 Installing Hugo on my machine was very easy, I followed the instructions on their website: [Installing on Windows](https://gohugo.io/tutorials/installing-on-windows/). Next was finding a [theme](http://themes.gohugo.io/) I liked and wanted to start experimenting with. This was probably where I spent most of my time! All themes should have user documentation that help guide you through exploring the theme, how to customize, and even give you an example website so you know how your code should look like. 
