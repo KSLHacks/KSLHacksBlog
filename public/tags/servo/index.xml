@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Servo on // inspire, create, hack, enjoy</title>
+    <link>http://kslhacks.com/tags/servo/</link>
+    <description>Recent content in Servo on // inspire, create, hack, enjoy</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 May 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://kslhacks.com/tags/servo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Intelligent Nerf Turret Part I: The Idea</title>
+      <link>http://kslhacks.com/2017/05/intelligent-nerf-turret-part-i-the-idea/</link>
+      <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/2017/05/intelligent-nerf-turret-part-i-the-idea/</guid>
+      <description>&lt;p&gt;First in the series of building an intelligent nerf turret powered with Microsoft Cognitive Services to recognize, classify, swivel and shoot!&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -6,10 +6,28 @@
     <description>Recent content in Tags on // inspire, create, hack, enjoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 12 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 May 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://kslhacks.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>3d Printing</title>
+      <link>http://kslhacks.com/tags/3d-printing/</link>
+      <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/tags/3d-printing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Arduino</title>
+      <link>http://kslhacks.com/tags/arduino/</link>
+      <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/tags/arduino/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Azure</title>
@@ -57,6 +75,24 @@
     </item>
     
     <item>
+      <title>Microsoft Cognitive Services</title>
+      <link>http://kslhacks.com/tags/microsoft-cognitive-services/</link>
+      <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/tags/microsoft-cognitive-services/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nerf Mod</title>
+      <link>http://kslhacks.com/tags/nerf-mod/</link>
+      <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/tags/nerf-mod/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Open Source</title>
       <link>http://kslhacks.com/tags/open-source/</link>
       <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
@@ -66,11 +102,29 @@
     </item>
     
     <item>
+      <title>Raspberry Pi 3</title>
+      <link>http://kslhacks.com/tags/raspberry-pi-3/</link>
+      <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/tags/raspberry-pi-3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Rich Media Cards</title>
       <link>http://kslhacks.com/tags/rich-media-cards/</link>
       <pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://kslhacks.com/tags/rich-media-cards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Servo</title>
+      <link>http://kslhacks.com/tags/servo/</link>
+      <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/tags/servo/</guid>
       <description></description>
     </item>
     
