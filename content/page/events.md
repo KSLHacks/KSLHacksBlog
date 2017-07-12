@@ -15,8 +15,10 @@ showDate:       false
 # Upcoming Speaking Events By Topic
 
 <!------ CaaP ------>
-<!-- ##### Leveling up your bot with language intelligence! (100 - 200) -->
-- [Dev Boot Camp] | Chicago, IL | July 25th, 2017
+##### Leveling up your bot with language intelligence! (100 - 200)
+- Dev Boot Camp | Chicago, IL | July 25th, 2017
+
+##### Content TBD
 - [That Conference](https://www.thatconference.com/) | Wisconsin Dells, WI | August 7th-9th, 2017
 
 <!------------------>
