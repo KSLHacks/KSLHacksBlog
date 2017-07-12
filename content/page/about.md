@@ -12,7 +12,7 @@ showSocial:     false
 showDate:       false
 ---
 
-Hi, I'm Kevin Leung, a Technical Evangelist at Microsoft focused on Developer Experience and sparking innovation.
+Hi, I'm Kevin Leung, a Technical Evangelist at Microsoft focused on developer communities, Software Engineering solutions and sparking innovation.
 
 You can think of my role as an engineer by night, public speaker by day (though, I don't have much superpowers). I truly enjoy deep diving in technology by helping students, startups and enterprises solve their most technically challenging problems while building content and demos to share the knowledge to a wider audience.  
 _Check out my [projects](/page/projects) section for more on my technology focuses and what I'm currently up to._
