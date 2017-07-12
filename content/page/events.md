@@ -15,8 +15,9 @@ showDate:       false
 # Upcoming Speaking Events By Topic
 
 <!------ CaaP ------>
-##### Leveling up your bot with language intelligence! (100 - 200)
-- [Beer City Code](http://beercitycode.com/) | Grand Rapids, MI | June 6-10, 2017
+<!-- ##### Leveling up your bot with language intelligence! (100 - 200) -->
+- [Dev Boot Camp] | Chicago, IL | July 25th, 2017
+- [That Conference](https://www.thatconference.com/) | Wisconsin Dells, WI | August 7th-9th, 2017
 
 <!------------------>
 
@@ -26,6 +27,8 @@ ___
 
 |            Event                  |         Technology         |      Location       |      Date     |
 |-----------------------------------|----------------------------|---------------------|--------------:|
+| Detroit.Code()                    | CaaP, IoT, AI, ASP.NET Core| Detroit, MI         | July 2017     |
+| Beer City Code                    | CaaP + AI                  | Grand Rapids, MI    | June 2017     |
 | Chicago .NET Developers Downtown  | CaaP + AI                  | Chicago, IL         | June 2017     |
 | GoTo Conference                   | CaaP + AI                  | Chicago, IL         | May 2017      |
 | Chicago Code Camp                 | CaaP + AI                  | Chicago, IL         | April 2017    |
