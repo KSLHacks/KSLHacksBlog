@@ -14,14 +14,18 @@ showDate:       false
 
 # Upcoming Speaking Events By Topic
 
-<!------ CaaP ------>
 ##### Leveling up your bot with language intelligence! (100 - 200)
 - Dev Boot Camp | Chicago, IL | July 25th, 2017
 
-##### Content TBD
+##### NodeJS and IoT Bots (100 - 200)
+- [International Nodebots Day](http://nodebots.io/) | Chicago, IL | July 29th, 2017
+
+##### Cloud Battle Stories (200)
 - [That Conference](https://www.thatconference.com/) | Wisconsin Dells, WI | August 7th-9th, 2017
 
-<!------------------>
+##### IoT + Cognitive Services (Voice and Image Recognition) (100 - 200)
+- [Midwest JS](http://midwestjs.com/#/schedule) | Minneapolis, MN | August 16th-18th, 2017
+
 
 ___
 
