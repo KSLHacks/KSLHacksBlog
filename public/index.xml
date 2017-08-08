@@ -6,10 +6,21 @@
     <description>Recent content on // inspire, create, hack, enjoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Aug 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://kslhacks.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Raspberry Pi 3 &#39;No Wireless Interface Found&#39;</title>
+      <link>http://kslhacks.com/2017/08/raspberry-pi-3-no-wireless-interface-found/</link>
+      <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/2017/08/raspberry-pi-3-no-wireless-interface-found/</guid>
+      <description>&lt;p&gt;Solution to a problem faced using a Raspberry Pi 3 (Raspbian) with built in Wi-Fi capabilities. Adding Wireless Networks to the appropriate file.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Intelligent Nerf Turret Part I: The Idea</title>
