@@ -14,18 +14,19 @@ showDate:       false
 
 # Upcoming Speaking Events By Topic
 
-##### Leveling up your bot with language intelligence! (100 - 200)
-- Dev Boot Camp | Chicago, IL | July 25th, 2017
-
-##### NodeJS and IoT Bots (100 - 200)
-- [International Nodebots Day](http://nodebots.io/) | Chicago, IL | July 29th, 2017
-
-##### Cloud Battle Stories (200)
-- [That Conference](https://www.thatconference.com/) | Wisconsin Dells, WI | August 7th-9th, 2017
-
 ##### IoT + Cognitive Services (Voice and Image Recognition) (100 - 200)
 - [Midwest JS](http://midwestjs.com/#/schedule) | Minneapolis, MN | August 16th-18th, 2017
 
+##### Student Hackathons
+- [MHacks](https://mhacks.org/) | Michigan University, Ann Arbor, MI | September 22nd - 24th, 2017
+
+<!--
+##### Leveling up your bot with language intelligence! (100 - 200)
+
+##### NodeJS and IoT Bots (100 - 200)
+
+##### Cloud Battle Stories (200)
+-->
 
 ___
 
@@ -33,6 +34,9 @@ ___
 
 |            Event                  |         Technology         |      Location       |      Date     |
 |-----------------------------------|----------------------------|---------------------|--------------:|
+| ThatConference                    | Cloud Battle Stories       | Wisconsin Dells, WI | August 2017   |
+| International Nodebots Day        | Iot, Node.js               | Chicago, IL         | July 2017     |
+| Dev Boot Camp                     | CaaP + AI                  | Chicago, IL         | July 2017     |
 | Detroit.Code()                    | CaaP, IoT, AI, ASP.NET Core| Detroit, MI         | July 2017     |
 | Beer City Code                    | CaaP + AI                  | Grand Rapids, MI    | June 2017     |
 | Chicago .NET Developers Downtown  | CaaP + AI                  | Chicago, IL         | June 2017     |
