@@ -14,11 +14,10 @@ showDate:       false
 
 # Upcoming Speaking Events By Topic
 
-##### IoT + Cognitive Services (Voice and Image Recognition) (100 - 200)
-- [Midwest JS](http://midwestjs.com/#/schedule) | Minneapolis, MN | August 16th-18th, 2017
+#### Azure Cloud Internet of Things (IoT) [Hardware]
+IoT Hub, Stream Analytics, Azure Functions, Cosmos DB and Cognitive Services
 
-##### Student Hackathons
-- [MHacks](https://mhacks.org/) | Michigan University, Ann Arbor, MI | September 22nd - 24th, 2017
+- [Cloud IoT Hacks](http://aka.ms/chicagocloudhacks) | Chicago, IL | November 8th, 2017
 
 <!--
 ##### Leveling up your bot with language intelligence! (100 - 200)
@@ -34,6 +33,8 @@ ___
 
 |            Event                  |         Technology         |      Location       |      Date     |
 |-----------------------------------|----------------------------|---------------------|--------------:|
+| MHacks                            | Iot + AI                   | Ann Arbor, MI       | September 2017|
+| Midwest JS                        | CaaP + AI                  | Minneapolis, MN     | August 2017   |
 | ThatConference                    | Cloud Battle Stories       | Wisconsin Dells, WI | August 2017   |
 | International Nodebots Day        | Iot, Node.js               | Chicago, IL         | July 2017     |
 | Dev Boot Camp                     | CaaP + AI                  | Chicago, IL         | July 2017     |
