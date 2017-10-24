@@ -18,16 +18,16 @@ Solution to a problem faced using a Raspberry Pi 3 (Raspbian) with built in Wi-F
 
 <!--more-->
 
-Until recently I have always used my RP3 running Raspbian with my personal hotspot that I carried around with me for wifi. A while ago, I went into my `/etc/networking/interfaces` and edited the file to add my SSID and Network Password. This was super convenient, the RP3 (with built in wifi and bluetooth), would always connect to my hotspot upon booting up every time. I enabled SSH and knew the IP address so I never had a need to hook my RP3 up to another internet source.
+Until recently I have always used my RP3 running Raspbian with my personal hotspot that I carried around with me for wifi. A while ago, I went into my `/etc/network/interfaces` and edited the file to add my SSID and Network Password. This was super convenient, the RP3 (with built in wifi and bluetooth), would always connect to my hotspot upon booting up every time. I enabled SSH and knew the IP address so I never had a need to hook my RP3 up to another internet source.
 
-Today I wanted to use my RP3 without my regular hotspot, I wanted to connect to the public network available. I plugged in a monitor (HDMI), keyboard and mouse and booted the Pi up. Once the GUI loaded to the desktop, I pressed the Wi-Fi icon on the top right which only showed "No Wireless Interface Found". After a bunch of debugging and testing my network I finally decided to check out the `/etc/networking/interfaces` file I had altered a while back. I removed the SSID and Network Password, rebooted the RP3 and the Network interface worked correctly, displaying all the nearby networks available.
+Today I wanted to use my RP3 without my regular hotspot, I wanted to connect to the public network available. I plugged in a monitor (HDMI), keyboard and mouse and booted the Pi up. Once the GUI loaded to the desktop, I pressed the Wi-Fi icon on the top right which only showed "No Wireless Interface Found". After a bunch of debugging and testing my network I finally decided to check out the `/etc/network/interfaces` file I had altered a while back. I removed the SSID and Network Password, rebooted the RP3 and the Network interface worked correctly, displaying all the nearby networks available.
 
 #### TL;DR
-You should **NOT** alter the `/etc/networking/interfaces` file to add a network SSID and Password. This may cause your Network interface to stop working properly by overriding it with a hardcoded network connection.
+You should **NOT** alter the `/etc/network/interfaces` file to add a network SSID and Password. This may cause your Network interface to stop working properly by overriding it with a hardcoded network connection.
 
-_**Note**: You must use elevated privileges when editing the files mentioned below. You can do this by running `sudo nano /etc/networking/interfaces` for instance._
+_**Note**: You must use elevated privileges when editing the files mentioned below. You can do this by running `sudo nano /etc/network/interfaces` for instance._
 
-Your `/etc/networking/interfaces` file should be:
+Your `/etc/network/interfaces` file should be:
 ```
 # interfaces(5) file used by ifup(8) and ifdown(8)
 
