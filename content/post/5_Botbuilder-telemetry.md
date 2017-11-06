@@ -70,10 +70,10 @@ Any variables can be passed in using the required configObject. Such as bot vers
 Define and implement the endpoint call you wish to make. Where would you like to send the payload?
 
 ## dataMutationFuncOrPromise
-Define and implement any function or promise that manipulates or adds onto the payload that is created on default. This can be left undefined if no futher processing is required, but this parameter allows the developer to customize the package before sending.
+Define and implement any function or promise that manipulates or adds onto the payload that is created by default. This can be left undefined if no futher processing is required, but this parameter allows the developer to customize the package before sending.
 
 ## NPM Package
-Check out the source code and NPM package, give it a try and let me know what you think! Github repo [/examples/app.js][github-example] has a full example of how to setup a bot using the Microsoft Bot Framework and using the middleware.
+Check out the source code and NPM package, give it a try and let me know what you think! Github repo [/examples/app.js][github-example] has a full example of how to setup a bot using the Microsoft Bot Framework which uses this middleware package.
 
 NPM package:
 [botbuilder-telemetry NPM package][npm-package]
