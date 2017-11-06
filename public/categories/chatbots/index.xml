@@ -6,10 +6,19 @@
     <description>Recent content in Chatbots on // inspire, create, hack, enjoy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 May 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Nov 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://kslhacks.com/categories/chatbots/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Botbuilder middleware package for custom analytics and telemetry</title>
+      <link>http://kslhacks.com/2017/11/botbuilder-middleware-package-for-custom-analytics-and-telemetry/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/2017/11/botbuilder-middleware-package-for-custom-analytics-and-telemetry/</guid>
+      <description>&lt;p&gt;Microsoft Botbuilder telemetry package for analytics.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Chatbots: Button Dialogs</title>

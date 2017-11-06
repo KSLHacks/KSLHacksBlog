@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>Analytics</title>
+      <link>http://kslhacks.com/tags/analytics/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/tags/analytics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Arduino</title>
       <link>http://kslhacks.com/tags/arduino/</link>
       <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
@@ -39,9 +48,27 @@
     </item>
     
     <item>
+      <title>Bot Middleware</title>
+      <link>http://kslhacks.com/tags/bot-middleware/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/tags/bot-middleware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bots</title>
+      <link>http://kslhacks.com/tags/bots/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/tags/bots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chatbots</title>
       <link>http://kslhacks.com/tags/chatbots/</link>
-      <pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>http://kslhacks.com/tags/chatbots/</guid>
       <description></description>
@@ -68,7 +95,7 @@
     <item>
       <title>Microsoft Bot Framework</title>
       <link>http://kslhacks.com/tags/microsoft-bot-framework/</link>
-      <pubDate>Tue, 30 May 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
       
       <guid>http://kslhacks.com/tags/microsoft-bot-framework/</guid>
       <description></description>
@@ -134,6 +161,15 @@
       <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
       
       <guid>http://kslhacks.com/tags/ssg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Telemetry</title>
+      <link>http://kslhacks.com/tags/telemetry/</link>
+      <pubDate>Mon, 06 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://kslhacks.com/tags/telemetry/</guid>
       <description></description>
     </item>
     

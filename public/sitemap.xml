@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://kslhacks.com/2017/11/botbuilder-middleware-package-for-custom-analytics-and-telemetry/</loc>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://kslhacks.com/2017/08/raspberry-pi-3-no-wireless-interface-found/</loc>
     <lastmod>2017-08-07T00:00:00+00:00</lastmod>
   </url>
@@ -23,13 +28,19 @@
   
   <url>
     <loc>http://kslhacks.com/</loc>
-    <lastmod>2017-08-07T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://kslhacks.com/tags/3d-printing/</loc>
     <lastmod>2017-05-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kslhacks.com/tags/analytics/</loc>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -51,19 +62,31 @@
   </url>
   
   <url>
+    <loc>http://kslhacks.com/tags/bot-middleware/</loc>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kslhacks.com/tags/bots/</loc>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://kslhacks.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://kslhacks.com/categories/chatbots/</loc>
-    <lastmod>2017-05-30T00:00:00+00:00</lastmod>
+    <loc>http://kslhacks.com/tags/chatbots/</loc>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://kslhacks.com/tags/chatbots/</loc>
-    <lastmod>2017-05-30T00:00:00+00:00</lastmod>
+    <loc>http://kslhacks.com/categories/chatbots/</loc>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -107,7 +130,7 @@
   
   <url>
     <loc>http://kslhacks.com/tags/microsoft-bot-framework/</loc>
-    <lastmod>2017-05-30T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -136,7 +159,7 @@
   
   <url>
     <loc>http://kslhacks.com/post/</loc>
-    <lastmod>2017-08-07T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -176,7 +199,13 @@
   
   <url>
     <loc>http://kslhacks.com/categories/tech/</loc>
-    <lastmod>2017-08-07T00:00:00+00:00</lastmod>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://kslhacks.com/tags/telemetry/</loc>
+    <lastmod>2017-11-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,774 @@
+
+
+  
+    
+  
+
+
+  
+
+
+
+
+  
+
+
+  
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.20.2">
+    <meta name="theme" content="Tranquilpeak 0.3.1-BETA">
+    <title>Botbuilder middleware package for custom analytics and telemetry</title>
+    <meta name="author" content="Kevin Leung">
+    <meta name="keywords" content="">
+
+    <link rel="icon" href="http://kslhacks.com/favicon.png">
+    
+
+    
+    <meta name="description" content="Microsoft Botbuilder telemetry package for analytics.">
+    <meta property="og:description" content="Microsoft Botbuilder telemetry package for analytics.">
+    <meta property="og:type" content="blog">
+    <meta property="og:title" content="Botbuilder middleware package for custom analytics and telemetry">
+    <meta property="og:url" content="/2017/11/botbuilder-middleware-package-for-custom-analytics-and-telemetry/">
+    <meta property="og:site_name" content="// inspire, create, hack, enjoy">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="// inspire, create, hack, enjoy">
+    <meta name="twitter:description" content="Microsoft Botbuilder telemetry package for analytics.">
+    
+      <meta name="twitter:creator" content="@KSLHacks">
+    
+    
+
+    
+    
+
+    
+      <meta property="og:image" content="//www.gravatar.com/avatar/3b04de1805edf3cd1806c80c89878bb1?s=640">
+    
+
+    
+      <meta property="og:image" content="http://kslhacks.com/img/posts/5_telemetryThumbnail.png">
+    
+    
+      <meta property="og:image" content="http://kslhacks.com/img/posts/5_telemetryBanner.png">
+    
+    
+
+    
+
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.css" />
+    
+    
+    <link rel="stylesheet" href="http://kslhacks.com/css/style-u6mk0ojoywresbx8iepslrmmhl4stuhrsxuwhkpwrkrx7mryjcaimasnk4pi.min.css" />
+    
+    
+
+    
+      
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-99057010-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+    
+    
+  </head>
+
+  <body>
+    <div id="blog">
+      <header id="header" data-behavior="5">
+  <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+  <div class="header-title">
+    <a class="header-title-link" href="http://kslhacks.com/">// inspire, create, hack, enjoy</a>
+  </div>
+  
+    
+      <a class="header-right-picture "
+         href="http://kslhacks.com/#about">
+    
+    
+    
+      
+        <img class="header-picture" src="//www.gravatar.com/avatar/3b04de1805edf3cd1806c80c89878bb1?s=90" alt="Author&#39;s picture" />
+      
+    
+    </a>
+  
+</header>
+
+      <nav id="sidebar" data-behavior="5">
+  <div class="sidebar-container">
+    
+      <div class="sidebar-profile">
+        <a href="http://kslhacks.com/#about">
+          <img class="sidebar-profile-picture" src="//www.gravatar.com/avatar/3b04de1805edf3cd1806c80c89878bb1?s=110" alt="Author&#39;s picture" />
+        </a>
+        <h4 class="sidebar-profile-name">Kevin Leung</h4>
+        
+          <h5 class="sidebar-profile-bio">Microsoft Engineer | Firefighter/EMT | Skier</h5>
+        
+      </div>
+    
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://kslhacks.com/">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+      
+      <span class="sidebar-button-desc">Home</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://kslhacks.com/page/about">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-address-card"></i>
+      
+      <span class="sidebar-button-desc">About</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://kslhacks.com/page/projects">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-terminal"></i>
+      
+      <span class="sidebar-button-desc">Projects</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://kslhacks.com/page/events">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-calendar"></i>
+      
+      <span class="sidebar-button-desc">Events</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="http://kslhacks.com/categories">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
+      
+      <span class="sidebar-button-desc">Categories</span>
+    </a>
+  </li>
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://github.com/kslhacks" target="_blank">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+      
+      <span class="sidebar-button-desc">GitHub</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://twitter.com/kslhacks" target="_blank">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
+      
+      <span class="sidebar-button-desc">Twitter</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.slideshare.net/KevinLeung52" target="_blank">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-slideshare"></i>
+      
+      <span class="sidebar-button-desc">Slideshare</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.instagram.com/iglesskev/" target="_blank">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-instagram"></i>
+      
+      <span class="sidebar-button-desc">Instagram</span>
+    </a>
+  </li>
+
+  <li class="sidebar-button">
+    
+      <a class="sidebar-button-link " href="https://www.linkedin.com/in/kevinseanleung/" target="_blank">
+    
+      <i class="sidebar-button-icon fa fa-lg fa-linkedin-square"></i>
+      
+      <span class="sidebar-button-desc">LinkedIn</span>
+    </a>
+  </li>
+
+    </ul>
+    <ul class="sidebar-buttons">
+      
+    </ul>
+  </div>
+</nav>
+
+      
+  <div class="post-header-cover
+              text-left
+              post-header-cover--partial"
+    
+       style="background-image:url('/img/posts/5_telemetryBanner.png'); height:40%"
+    
+       data-behavior="5">
+    
+      <div class="post-header main-content-wrap text-left">
+  
+    <h1 class="post-title" itemprop="headline">
+      Botbuilder middleware package for custom analytics and telemetry
+    </h1>
+  
+  <div class="postShorten-meta post-meta">
+  
+    <time itemprop="datePublished" datetime="2017-11-06T00:00:00Z">
+      
+  November 6, 2017
+
+    </time>
+  
+  
+  
+  
+    <span>in</span>
+    
+      <a class="category-link" href="http://kslhacks.com/categories/tech">tech</a>, 
+    
+      <a class="category-link" href="http://kslhacks.com/categories/chatbots">chatbots</a>
+    
+  
+
+
+</div>
+
+</div>
+    
+  </div>
+
+
+      <div id="main" data-behavior="5"
+        class="hasCover
+               hasCoverMetaIn
+               ">
+        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
+          
+          
+          <div class="post-content markdown" itemprop="articleBody">
+            <div class="main-content-wrap">
+              <p>Microsoft Botbuilder telemetry package for analytics.</p>
+
+<p>
+Allows bot session, incoming and outgoing messages, and LUIS recognizer to be captured and consumed. This payload can be sent to any endpoint desired.</p>
+
+<h2 id="purpose">Purpose</h2>
+
+<p>This middleware allows bot developers to collect telemetry on incoming user messages, outgoing bot responses, dialog, stack, response latency and cognitive services and more. No additional REST calls are made to gather these data points. On every user input, the package will create a new payload with the most recent information.</p>
+
+<p>A host of data is by default already collected from the user (below), but the developer can add, manipulate and restructure the payload however they require. Once the payload contains all the telemetry required, it can be sent to any endpoint specified by the developer. This can include API calls, database connections, etc.</p>
+
+<h2 id="analytics-and-telemetry">Analytics and telemetry</h2>
+
+<pre><code class="language-js">botName                 // &quot;Test-Bot&quot;
+userName                // &quot;Kevin L.&quot;
+userMessage             // &quot;hello&quot;
+userMessageLength       // 5
+userMessageTimestamp    // 2017-10-26T20:21:54.977Z
+botResponse             // string[] [&quot;Hello! I am your friendly bot.&quot;]
+botResponseLength       // 10
+botResponseTimestamp    // 2017-10-26T20:21:57.424Z
+botResponseLatency      // 2447
+currentDialog           // Object {dialog: &quot;*:/&quot;, step: 0}
+dialogStack             // string[] [&quot;*:/&quot;, &quot;*:/greeting&quot;]
+luisIntent              // &quot;greeting&quot;
+</code></pre>
+
+<h2 id="consume">Consume</h2>
+
+<pre><code class="language-js">// from Microsoft botbuilder SDK
+var bot = new builder.UniversalBot(connector) 
+
+// Use botbuilder-telemetry package
+bot = ApplyTelemetryMiddleware(bot, configObject, dataHandleFunction, dataMutationFuncOrPromise)
+
+// ... Rest of your bot definition
+</code></pre>
+
+<h2 id="configobject">configObject</h2>
+
+<p>Any variables can be passed in using the required configObject. Such as bot version, developer, any endpoint requirements, user data, etc..</p>
+
+<h2 id="datahandlefunction">dataHandleFunction</h2>
+
+<p>Define and implement the endpoint call you wish to make. Where would you like to send the payload?</p>
+
+<h2 id="datamutationfuncorpromise">dataMutationFuncOrPromise</h2>
+
+<p>Define and implement any function or promise that manipulates or adds onto the payload that is created on default. This can be left undefined if no futher processing is required, but this parameter allows the developer to customize the package before sending.</p>
+
+<h2 id="npm-package">NPM Package</h2>
+
+<p>Check out the source code and NPM package, give it a try and let me know what you think! Github repo <a href="https://github.com/KSLHacks/botbuilder-telemetry/blob/master/example/app.js">/examples/app.js</a> has a full example of how to setup a bot using the Microsoft Bot Framework and using the middleware.</p>
+
+<p>NPM package:
+<a href="https://www.npmjs.com/package/botbuilder-telemetry">botbuilder-telemetry NPM package</a></p>
+
+<p>Source code in Github here:
+<a href="https://github.com/KSLHacks/botbuilder-telemetry">botbuilder-telemetry Github Repo</a></p>
+              
+            </div>
+          </div>
+          <div id="post-footer" class="post-footer main-content-wrap">
+            
+              
+                
+                
+                  <div class="post-footer-tags">
+                    <span class="text-color-light text-small">TAGGED IN</span><br/>
+                    
+  <a class="tag tag--primary tag--small" href="http://kslhacks.com/tags/microsoft-bot-framework/">Microsoft Bot Framework</a>
+
+  <a class="tag tag--primary tag--small" href="http://kslhacks.com/tags/chatbots/">chatbots</a>
+
+  <a class="tag tag--primary tag--small" href="http://kslhacks.com/tags/bots/">bots</a>
+
+  <a class="tag tag--primary tag--small" href="http://kslhacks.com/tags/bot-middleware/">bot middleware</a>
+
+  <a class="tag tag--primary tag--small" href="http://kslhacks.com/tags/analytics/">analytics</a>
+
+  <a class="tag tag--primary tag--small" href="http://kslhacks.com/tags/telemetry/">telemetry</a>
+
+                  </div>
+                
+              
+            
+            <div class="post-actions-wrap">
+  <nav>
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+            <i class="fa fa-angle-left"></i>
+            <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+          </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="http://kslhacks.com/2017/08/raspberry-pi-3-no-wireless-interface-found/" data-tooltip="Raspberry Pi 3 &#39;No Wireless Interface Found&#39;">
+          
+            <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+  <ul class="post-actions post-action-share">
+    
+      <li class="post-action hide-lg hide-md hide-sm">
+        <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+          <i class="fa fa-share-alt"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http%3a%2f%2fkslhacks.com%2f2017%2f11%2fbotbuilder-middleware-package-for-custom-analytics-and-telemetry%2f">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkslhacks.com%2f2017%2f11%2fbotbuilder-middleware-package-for-custom-analytics-and-telemetry%2f">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fkslhacks.com%2f2017%2f11%2fbotbuilder-middleware-package-for-custom-analytics-and-telemetry%2f">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    
+    
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#disqus_thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
+    
+    <li class="post-action">
+      
+        <a class="post-action-btn btn btn--default" href="#">
+      
+        <i class="fa fa-list"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+            
+              
+                <div id="disqus_thread">
+  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+              
+            
+          </div>
+        </article>
+        <footer id="footer" class="main-content-wrap">
+  <span class="copyrights">
+    &copy; 2017 Kevin Leung. All Rights Reserved
+  </span>
+</footer>
+
+      </div>
+      <div id="bottom-bar" class="post-bottom-bar" data-behavior="5">
+        <div class="post-actions-wrap">
+  <nav>
+    <ul class="post-actions post-action-nav">
+      
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--disabled">
+          
+            <i class="fa fa-angle-left"></i>
+            <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
+          </a>
+        </li>
+        <li class="post-action">
+          
+            <a class="post-action-btn btn btn--default tooltip--top" href="http://kslhacks.com/2017/08/raspberry-pi-3-no-wireless-interface-found/" data-tooltip="Raspberry Pi 3 &#39;No Wireless Interface Found&#39;">
+          
+            <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </nav>
+  <ul class="post-actions post-action-share">
+    
+      <li class="post-action hide-lg hide-md hide-sm">
+        <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
+          <i class="fa fa-share-alt"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http%3a%2f%2fkslhacks.com%2f2017%2f11%2fbotbuilder-middleware-package-for-custom-analytics-and-telemetry%2f">
+          <i class="fa fa-google-plus"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkslhacks.com%2f2017%2f11%2fbotbuilder-middleware-package-for-custom-analytics-and-telemetry%2f">
+          <i class="fa fa-facebook-official"></i>
+        </a>
+      </li>
+      <li class="post-action hide-xs">
+        <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fkslhacks.com%2f2017%2f11%2fbotbuilder-middleware-package-for-custom-analytics-and-telemetry%2f">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </li>
+    
+    
+      <li class="post-action">
+        <a class="post-action-btn btn btn--default" href="#disqus_thread">
+          <i class="fa fa-comment-o"></i>
+        </a>
+      </li>
+    
+    <li class="post-action">
+      
+        <a class="post-action-btn btn btn--default" href="#">
+      
+        <i class="fa fa-list"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+      </div>
+      <div id="share-options-bar" class="share-options-bar" data-behavior="5">
+  <ul class="share-options">
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http%3a%2f%2fkslhacks.com%2f2017%2f11%2fbotbuilder-middleware-package-for-custom-analytics-and-telemetry%2f">
+        <i class="fa fa-google-plus"></i><span>Share on Google Plus</span>
+      </a>
+    </li>
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fkslhacks.com%2f2017%2f11%2fbotbuilder-middleware-package-for-custom-analytics-and-telemetry%2f">
+        <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+      </a>
+    </li>
+    <li class="share-option">
+      <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http%3a%2f%2fkslhacks.com%2f2017%2f11%2fbotbuilder-middleware-package-for-custom-analytics-and-telemetry%2f">
+        <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+      </a>
+    </li>
+  </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+    </div>
+    
+    <div id="about">
+  <div id="about-card">
+    <div id="about-btn-close">
+      <i class="fa fa-remove"></i>
+    </div>
+    
+      <img id="about-card-picture" src="//www.gravatar.com/avatar/3b04de1805edf3cd1806c80c89878bb1?s=110" alt="Author&#39;s picture" />
+    
+    <h4 id="about-card-name">Kevin Leung</h4>
+    
+      <div id="about-card-bio">Microsoft Engineer | Firefighter/EMT | Skier</div>
+    
+    
+      <div id="about-card-job">
+        <i class="fa fa-briefcase"></i>
+        <br/>
+        Microsoft Technical Evangelist
+      </div>
+    
+    
+      <div id="about-card-location">
+        <i class="fa fa-map-marker"></i>
+        <br/>
+        Chicago, IL
+      </div>
+    
+  </div>
+</div>
+
+    <div id="algolia-search-modal" class="modal-container">
+  <div class="modal">
+    <div class="modal-header">
+      <span class="close-button"><i class="fa fa-close"></i></span>
+      <a href="https://algolia.com" target="_blank" class="searchby-algolia text-color-light link-unstyled">
+        <span class="searchby-algolia-text text-color-light text-small">by</span>
+        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
+      </a>
+      <i class="search-icon fa fa-search"></i>
+      <form id="algolia-search-form">
+        <input type="text" id="algolia-search-input" name="search"
+          class="form-control input--large search-input" placeholder="Search" />
+      </form>
+    </div>
+    <div class="modal-body">
+      <div class="no-result text-color-light text-center">no post found</div>
+      <div class="results">
+        
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://kslhacks.com/2017/11/botbuilder-middleware-package-for-custom-analytics-and-telemetry/">
+                <h3 class="media-heading">Botbuilder middleware package for custom analytics and telemetry</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Microsoft Botbuilder telemetry package for analytics.</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://kslhacks.com/2017/08/raspberry-pi-3-no-wireless-interface-found/">
+                <h3 class="media-heading">Raspberry Pi 3 &#39;No Wireless Interface Found&#39;</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Aug 8, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Solution to a problem faced using a Raspberry Pi 3 (Raspbian) with built in Wi-Fi capabilities. Adding Wireless Networks to the appropriate file.</p>
+
+<p></p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://kslhacks.com/2017/05/intelligent-nerf-turret-part-i-the-idea/">
+                <h3 class="media-heading">Intelligent Nerf Turret Part I: The Idea</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>First in the series of building an intelligent nerf turret powered with Microsoft Cognitive Services to recognize, classify, swivel and shoot!</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://kslhacks.com/2017/05/chatbots-button-dialogs/">
+                <h3 class="media-heading">Chatbots: Button Dialogs</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>Quick steps to start new dialogs with a click of a button. Demo with code provided. Take your chatbot to the next level!</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://kslhacks.com/2017/05/new-website-is-here/">
+                <h3 class="media-heading">New website is here!</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  May 5, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"><p>My new site is up and running with Hugo on Azure!</p></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
+              <a class="link-unstyled" href="http://kslhacks.com/post/">
+                <h3 class="media-heading">Posts</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Nov 11, 2017
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"></div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+      </div>
+    </div>
+    <div class="modal-footer">
+      <p class="results-count text-medium"
+         data-message-zero="no post found"
+         data-message-one="1 post found"
+         data-message-other="{n} posts found">
+         6 posts found
+      </p>
+    </div>
+  </div>
+</div>
+    
+  
+    
+    <div id="cover" style="background: #0B0D19 url('http://kslhacks.com/images/cover_city.png'); background-size: cover;"></div>
+  
+
+    
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/helpers/jquery.fancybox-thumbs.min.js"></script>
+
+
+<script src="http://kslhacks.com/js/script-wl33z0n6ocaypepiqrazthtivfrliqijej4rq8ek8gvrv1awftmgjuv8k4zc.min.js"></script>
+
+<script>
+$(document).ready(function() {
+  hljs.configure({ classPrefix: '', useBR: false });
+  $('pre.code-highlight').each(function(i, block) {
+    var code = "";
+    hljs.highlightAuto(block.innerText).value.split(/\r\n|\r|\n/).forEach(function(line) {
+      code += "<span class=\"line\">" + line + "</span><br>";
+    });
+    if (code.length > 0) {
+      block.innerHTML = code;  
+    }
+  });
+  $('pre > code').each(function(i, block) {
+    $(this).addClass('codeblock');
+    hljs.highlightBlock(block);
+  });
+});
+</script>
+
+  
+    
+      <script>
+        var disqus_config = function () {
+          this.page.url = 'http:\/\/kslhacks.com\/2017\/11\/botbuilder-middleware-package-for-custom-analytics-and-telemetry\/';
+          
+            this.page.identifier = '\/2017\/11\/botbuilder-middleware-package-for-custom-analytics-and-telemetry\/'
+          
+        };
+        (function() {
+          
+          
+          if (window.location.hostname == "localhost") {
+            return;
+          }
+          var d = document, s = d.createElement('script');
+          var disqus_shortname = 'kslhacks';
+          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    
+  
+
+
+
+
+
+    
+  </body>
+</html>
+
